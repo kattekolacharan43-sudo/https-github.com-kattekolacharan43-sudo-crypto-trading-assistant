@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-trading-assistant"
+version = "0.1.0"
+description = "Advanced AI Crypto Trading Assistant for multi-exchange pair analysis"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "kattekolacharan43-sudo" }]
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["crypto_trading_assistant"]
